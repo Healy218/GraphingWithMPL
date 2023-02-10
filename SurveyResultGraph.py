@@ -48,7 +48,7 @@ for question in questions:
         label += ' ' + word
         count += 1
     question_labels.append(label)
-ax.set_yticklabels(question_labels)
+ax.set_yticklabels(question_labels, fontdict={'weight': 'bold'})
 ax.legend(options, loc='center', bbox_to_anchor=(0.4, -0.1), frameon=False, ncol = len(options), fontsize = 14)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
