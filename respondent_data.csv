@@ -1,0 +1,25 @@
+Profession,Option,Response
+Registered Nurse (N=27),No Response,1
+Registered Nurse (N=27),None,19
+Registered Nurse (N=27),1 to 10,1
+Registered Nurse (N=27),11 to 25,3
+Registered Nurse (N=27),26 to 50,3
+Registered Nurse (N=27),More than 50,0
+Nurse Practitioner (N=12),No Response,0
+Nurse Practitioner (N=12),None,4
+Nurse Practitioner (N=12),1 to 10,6
+Nurse Practitioner (N=12),11 to 25,2
+Nurse Practitioner (N=12),26 to 50,0
+Nurse Practitioner (N=12),More than 50,0
+Physician Assistant (N=21),No Response,0
+Physician Assistant (N=21),None,6
+Physician Assistant (N=21),1 to 10,14
+Physician Assistant (N=21),11 to 25,1
+Physician Assistant (N=21),26 to 50,0
+Physician Assistant (N=21),More than 50,0
+Attending Physician (N=70),No Response,2
+Attending Physician (N=70),None,5
+Attending Physician (N=70),1 to 10,48
+Attending Physician (N=70),11 to 25,11
+Attending Physician (N=70),26 to 50,4
+Attending Physician (N=70),More than 50,0
