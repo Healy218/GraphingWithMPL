@@ -48,16 +48,16 @@ for question in questions:
         label += ' ' + word
         count += 1
     question_labels.append(label)
-ax.set_yticklabels(question_labels, fontdict={'weight': 'bold'})
-ax.legend(options, loc='center', bbox_to_anchor=(0.4, -0.1), frameon=False, ncol = len(options), fontsize = 14)
+ax.set_yticklabels(question_labels)
+ax.legend(options, loc='center', bbox_to_anchor=(0.4, -0.1), frameon=False, ncol = len(options), fontsize = 20)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)
 ax.xaxis.set_tick_params(labelsize=14)
 ax.xaxis.set_ticks(np.arange(0, 1.1, 0.1))
-ax.xaxis.set_ticklabels(['{:.0%}'.format(x) for x in np.arange(0, 1.1, 0.1)])
-plt.yticks(fontsize=16)
+ax.xaxis.set_ticklabels(['{:.0%}'.format(x) for x in np.arange(0, 1.1, 0.1)], fontname="Times New Roman")
+plt.yticks(fontsize=20, fontname="Times New Roman")
 plt.show()
 
 
